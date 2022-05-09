@@ -1,0 +1,12 @@
+*** Comments
+
+"#" is used to make a single line comment.
+
+" """(Three double quotes)""" " are used to make multi line comments.
+
+
+***Escape sequences
+
+==>> It's used to run special functionalities in python string.
+
+==>> List of Escape sequences :- https://www.w3schools.com/python/gloss_python_escape_characters.asp

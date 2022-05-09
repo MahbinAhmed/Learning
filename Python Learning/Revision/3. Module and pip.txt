@@ -1,0 +1,25 @@
+*** Module
+
+==>> In Python, Modules are simply files with the “. py” extension containing Python code that can be imported inside another Python Program. In simple terms, we can consider a module to be the same as a code library or a file that 
+     contains a set of functions that you want to include in your application.
+
+     (Collected from Google)
+
+==>> There are 2 types of module in Python :-
+     1. Built-in module.
+     2. External module.
+
+     1. Built-in module's are those modules which are automatically comes with Python. List of Python built-in modules :- https://docs.python.org/3/py-modindex.html
+     2. External module's are those modules which modules requires additional download request by pip command.
+
+
+*** Pip
+
+==>> It's just a simple package manager for python.
+
+==>> Pip is the standard package manager for Python. It allows you to install and manage additional packages that are not part of the Python standard library.
+
+     (Collected from realpython.com)
+
+==>> Pip command list :-
+     (run "pip" or "pip help" in cmd/ps to get the list)
