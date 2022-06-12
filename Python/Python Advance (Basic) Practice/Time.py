@@ -1,0 +1,18 @@
+import time
+
+print(time.time())
+print(time.localtime())
+# print(time.mktime(time.localtime(1653461177.8236759)))
+# print(time.ctime(1653743768.8793383))
+# print(time.sleep(3))
+# print(time.struct_time)
+# localtime = time.localtime(1653743768.8793383)
+# print(localtime.tm_min)
+# print(time.localtime())
+# print(time.gmtime(1653743768.8793383))
+# print(time.localtime(1653743768.8793383))
+# print(time.mktime(time.localtime()))
+# print(time.asctime(time.localtime(1653743768.8793383)))
+# print(time.strftime("%m-%d-%Y, %H:%M:%S",time.localtime()))
+# a = time.strftime("%m-%d-%Y, %H:%M:%S",time.localtime())
+# print(time.strptime(a,"%m-%d-%Y, %H:%M:%S"))
