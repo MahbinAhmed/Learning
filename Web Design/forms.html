@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Form</h1>
+    <form action="backend.php">
+        <label for="Name">Name</label>
+        <div>
+            <input type="text" name="myName" id="Name"><br>
+        </div>
+        <label for="Email">Email</label>
+        <div>
+           <input type="email" name="myEmail" id="Email"><br>
+        </div>
+        <label for="Phone Number">Phone Number</label>
+        <div>
+            <input type="tel" name="myPhone" id="Phone Number" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br>
+        </div>
+        <label for="Date">Date</label>
+        <div>
+            <input type="date" name="myDate" id="Date"><br>
+        </div>
+        <div>
+            <label for="Yes">Yes</label>
+            <input type="radio" name="yesOrno" id="Yes">
+            <label for="No">No</label>
+            <input type="radio" name="yesOrno" id="No">
+        </div>
+        <div>
+            Say something about yourself <br>
+            <textarea name="myText" cols="20" rows="10" placeholder="Valid text only :- "></textarea>
+        </div>
+        <div>
+            Right? <input type="checkbox" checked>
+        </div>
+        <div>
+            <label for="Car Name">Cars</label>
+            <select name="myCar" id="Car Name">
+                <option value="hyundai">Hyundai</option>
+                <option value="corolla">Corolla</option>
+                <option value="bmw" selected>BMW</option>
+            </select>
+        </div>
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset Now">
+        </div>
+    </form>
+</body>
+</html>
