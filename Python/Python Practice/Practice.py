@@ -196,5 +196,13 @@ Download App
 # regex_pattern = r"d\w+"
 # print(re.findall(regex_pattern,text))
 
-dict1 = {"Hello":6,"Hi":5}
-print(dict1.get("Hello"))
+# dict1 = {"Hello":6,"Hi":5}
+# print(dict1.get("Hello"))
+
+def factorial(n):
+	if n ==1:
+		return 1
+	else:
+		return n * factorial(n-1)
+
+print(factorial(55))

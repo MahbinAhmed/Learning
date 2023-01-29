@@ -13,7 +13,7 @@ def is_palindrome(a):
 # List_section
 list = []
 # Input_section
-loop_input = int(input("Enter the number which you want to play this :- "))
+loop_input = int(input("For how many numbers you want to check:- "))
 for i in range(loop_input):
     a = int(input("Enter the number :- "))
     list.append(a)

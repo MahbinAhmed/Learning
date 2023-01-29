@@ -13,11 +13,10 @@ import requests
 # From Corey Schafer----->>>>>
 
 # Image Downloading
-# r = requests.get("https://imgs.xkcd.com/comics/python.png")
-# # print(r.content)
-# with open("downloaded.png","wb") as f:
-#     f.write(r.content)
-
+r = requests.get("https://imgs.xkcd.com/comics/python.png")
+# print(r.content)
+with open("downloaded.png","wb") as f:
+    f.write(r.content)
 # payload = {"Hello":5, "Hi":6}
 # r = requests.get("https://httpbin.org/get", params=payload)
 # print(r.headers)
@@ -26,5 +25,5 @@ import requests
 # r = requests.post("https://httpbin.org/post", data=payload)
 # print(r.url)
 
-r = requests.get("https://httpbin.org/basic-auth/hello/heythere", auth=("hello","heythere"))
-print(r.text)
+# r = requests.get("https://httpbin.org/basic-auth/hello/heythere", auth=("hello","heythere"))
+# print(r.text)
