@@ -10,7 +10,7 @@ int fib_recursive(int n){
     }
 }
 int fib_iterative(int n){
-    int fib_series[n+1];
+    int fib_series[n];
     fib_series[0] = 0;
     fib_series[1] = 1;
     int j = n+1;

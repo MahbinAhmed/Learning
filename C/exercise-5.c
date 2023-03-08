@@ -1,11 +1,12 @@
 #include<stdio.h>
-void arrayReversal(int arr[])
+
+void arrayReversal(int arr[], int arr_size)
 {
     int i,temp;
-    for (i=0;i<7/2;i++){
+    for (i=0;i<arr_size/2;i++){
         temp = arr[i];
-        arr[i] = arr[6-i];
-        arr[6-i] = temp;
+        arr[i] = arr[arr_size-i-1];
+        arr[arr_size-i-1] = temp;
     }
 }
 
@@ -17,12 +18,30 @@ void arrayPrint(int arr[])
     }
 }
 
+void arrayPrint2(int arr[], int arr_size){
+    printf("{");
+    for (int i=0;i<arr_size;i++){
+        printf("%d",arr[i]);
+        if (i!=(arr_size-1)){
+            printf(",");
+        }
+    }
+    printf("}\n");
+}
+
 int main()
 {
-    int array[] = {3,4,45,43,54,6,45};
+    int array[] = {5,64,57,78,34,654,54};
+    int arr_size;
     printf("Array before reversal:- \n");
-    arrayPrint(array);
-    arrayReversal(array);
+    if (sizeof(array)!=0){
+        arr_size = sizeof(array)/sizeof(array[0]);
+    }
+    else{
+        arr_size = 0;
+    }
+    arrayPrint2(array,arr_size);
+    arrayReversal(array, arr_size);
     printf("Array after reversal:- \n");
-    arrayPrint(array);
+    arrayPrint2(array,arr_size);
 }

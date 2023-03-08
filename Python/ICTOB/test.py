@@ -1,0 +1,17 @@
+import turtle
+
+obj = turtle.Turtle()
+obj.shape("turtle")
+scr = turtle.Screen()
+scr.title("Hello")
+scr.bgcolor("black")
+obj.color("green")
+obj.forward(400)
+obj.setheading(270)
+# obj.left(100)
+obj.forward(100)
+obj.setheading(180)
+obj.forward(400)
+obj.setheading(90)
+obj.forward(100)
+obj.up(100)

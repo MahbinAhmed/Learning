@@ -1,4 +1,5 @@
 #include <stdio.h>
+void reversed_star_shape(int n);
 void star_shape(int n)
 {
     int i,j;

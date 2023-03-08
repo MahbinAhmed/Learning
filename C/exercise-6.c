@@ -38,7 +38,7 @@ void parser(char string[])
 
 int main()
 {
-    char string[] = "<>   Hello         <>";
+    char string[] = "   <          >   Hello         <>";
     parser(string);
     printf("~~%s~~",string);
 }
