@@ -1,2 +1,2 @@
 
-    void operator ++(){
+        cout << r << "+" << i << "i" << endl;
