@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Join Us</title>
+        <meta name="author" content="MAM">
+        <meta name="description" content="This page has been created to take information from the user.">
+        <link rel="stylesheet" href="design.css" type="text/css">
+        <link rel="icon" href="html.png" type="image/x-icon">
+    </head>
+    <body>
+        <header>
+            <h1>Fill Up</h1>
+            <p>Fill up this form and submit to apply for joining our team!</p>
+        </header>
+        <main>
+            <article>
+                <h2>Content to be added</h2>
+                <form action="https://httpbin.org/post" method="post">
+                    <fieldset>
+                        <legend>Personal information</legend>
+                        <p>
+                            <label for="user_name">Username:</label>
+                            <input type="text" name="user_name" id="user_name" placeholder="john_mathew10" required autocomplete="on">
+                        </p>
+                        <p>
+                            <label for="contact_num">Contact Number:</label>
+                            <input type="tel" name="phone_num" id="contact_num" placeholder="01712xxxxxx" required autocomplete="on" pattern="[0-9]{11}">
+                        </p>
+                        <p>
+                            <label for="email">Email:</label>
+                            <input type="email" name="email_address" id="email" placeholder="johnmathew10@gmail.com" autocomplete="on">
+                        </p>
+                        <p>
+                            <label for="dob">Date of Birth:</label>
+                            <input type="date" name="date_of_birth" id="dob" placeholder="dd-mm-yyyy" required>
+                        </p>
+                        <p>
+                            <label for="fav_decade">Favourite Decade:</label>
+                            <input type="number" min="1930" max="2030" step="10" value="1960">
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Information for Joining</legend>
+                        <p>
+                            <p>
+                                <label for="description">Shortly describe why do you want to us?</label>
+                            </p>
+                            <p>
+                                <textarea name="interests_to_join" id="description" cols="30" rows="10" placeholder="e.g. I am interested because..." required></textarea>
+                            </p>
+                        </p>
+                        <p>
+                            <label for="fav_language">Favorite Programming Language</label>
+                            <select name="fav_language" id="fav_language" multiple>
+                                <option value="C++" selected>C++</option>
+                                <option value="C" >C</option>
+                                <option value="Python">Python</option>
+                                <option value="Javascript">Javascript</option>
+                                <option value="Java">Java</option>
+                            </select>
+                        </p>
+                        <p>
+                            <section>
+                                <h3>Select your department:-</h3>
+                                <p>
+                                    <input type="radio" name="department" value="HR" id="HR" required>
+                                    <label for="HR">HR</label>
+                                </p>
+                                <p>
+                                    <input type="radio" name="department" value="web_design" id="web_design">
+                                    <label for="Web_Design">Web Design</label>
+                                </p>
+                                <p>
+                                    <input type="radio" name="department" value="web_development" id="Web_Development">
+                                    <label for="Web_Development">Web Development</label>
+                                </p>
+                                <p>
+                                    <input type="radio" name="department" value="app_development" id="App_Development">
+                                    <label for="App_Development">App Development</label>
+                                </p>
+                            </section>
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Authentication</legend>
+                        <p>
+                            <label for="password">Password:</label>
+                            <input type="password" id="password" required>
+                        </p>
+                        <p>
+                            <label for="picture">Picture of your face:</label>
+                            <input type="file" id="picture" required>
+                        </p>
+                    </fieldset>
+                    <p>
+                        <button type="submit">Submit</button>
+                    </p>
+                    <p>
+                        <button type="reset">Reset</button>
+                    </p>
+                </form>
+                <p>
+                    <a href="/">Home</a>
+                </p>
+            </article>
+        </main>
+    </body>
+</html>

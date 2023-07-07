@@ -1,0 +1,25 @@
+html{
+    font-size: 18px;
+}
+body{
+    background-color: rgb(71, 71, 71);
+    color: azure;
+}
+a,a:link{
+    color: rgb(86, 252, 202);
+}
+a:hover{
+    color: antiquewhite;
+    font-size: 20px;
+}
+a:visited{
+    color: beige;
+    font-size: 18px;
+}
+table,th,tr,td, caption{
+    border: 1px solid #eee;
+    color: #ffffff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-collapse: collapse;
+    padding: 10px;
+}
