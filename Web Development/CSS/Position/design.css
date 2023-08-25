@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    margin: 0.5rem;
+}
+
+.container{
+    height: 400vh;
+}
+
+.box{
+    border: 1px solid rgb(186, 255, 129);
+    background-color: burlywood;
+    height: 70px;
+    width: 70px;
+    margin: 0.2rem;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 1.1rem;
+}
+
+.container{
+    border: 2px double green;
+    
+}
+
+#box1{
+    position: absolute;
+    top: 150px;
+    left: 50px;
+}
+
+#box2{
+    position: relative;
+    top: 95px;
+    left: 124px;
+}
+
+#box3{
+    position: fixed;
+    top: 150px;
+    left: 202px;
+}
+
+#box4{
+    position: sticky;
+    top: 05px;
+    left: 182px;
+}

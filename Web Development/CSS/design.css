@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+ --BUTTON-COLOR: whitesmoke;
+ --DARK-COLOR: black;
+ --SEMIDARK-COLOR: #332E30;
+ --BG-COLOR: rgb(255, 255, 162);
+}
+
+@media (prefers-color-scheme: dark){
+    :root{
+
+        --BUTTON-COLOR: rgb(61, 61, 61);
+        --DARK-COLOR: rgba(255, 255, 255, 0.712);
+        --SEMIDARK-COLOR: #551a1a;
+        --BG-COLOR: rgb(160, 120, 46);
+       
+       }
+       
+}
+
+header h1{
+    text-align: center;
+    color: var(--BUTTON-COLOR);
+    background-color: var(--DARK-COLOR);
+    padding: 0.3rem;
+}
+
+nav{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+nav a{
+    text-decoration: none;
+    padding: 0.2rem;
+    text-align: center;
+    color: #332E30;
+    border-right: 1px solid var(--SEMIDARK-COLOR);
+}
+
+nav a:hover{
+    background-color: var(--SEMIDARK-COLOR);
+    color: var(--BUTTON-COLOR);
+}
+
+@media screen and (max-width: 950px){
+    body{
+        background-color: var(--BG-COLOR);
+    }
+    
+    nav a{
+        background-color: var(--BUTTON-COLOR);
+        color: var(--DARK-COLOR);
+    }
+
+    nav a:hover{
+        background-color: var(--DARK-COLOR);
+        color: var(--BUTTON-COLOR);
+    }
+}

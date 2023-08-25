@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.item{
+    border: 1px solid black;
+    width: 30%;
+}
+
+.container{
+    width: 50%;
+    border: 2px double cyan;
+}
+
+#first{
+    float: left;
+    width: 49%;
+    margin: auto;
+    padding: 5px;
+}
+
+#second{
+    float: right;
+    width: 49%;
+    margin: auto;
+    padding: 5px;
+}
+
+#third{
+    width: 98%;
+    /* clear: both; */
+    margin-left: 5px;
+    padding: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}

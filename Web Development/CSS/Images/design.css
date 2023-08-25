@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.design-1{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgba(255, 234, 178, 0.5);
+}
+
+.sub_design-1{
+    border-bottom: 1px solid brown;
+    background-image: url('img/map-2176x1451.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.type-1{
+    margin: 1rem;
+    width: 20%;
+    border-right: 3px solid rgb(0, 0, 0);
+}
+
+.type-1 img{
+    width: 80%;
+    height: auto;
+    border: 2px double black;
+    border-radius: 50%;
+    min-width: 100px;
+}
+
+section h1{
+    margin: 1rem;
+    font-size: 3em;
+    color: rgb(0, 0, 0);
+    text-shadow: 3px 2px rgb(255, 255, 255);
+}
+
+.content{
+    height: 255vh;
+    background-image: url('img/bubbles.png'), linear-gradient(to right, white, orange);
+    background-repeat: repeat-y;
+    background-position: right;
+}
+
+.inner-div{
+    height: 194vh;
+    
+}
+
+h1{
+    text-align: center;
+    background-image: url('img/scenic-2200x1331.png');
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 10rem;
+    background-position: bottom;
+}
+
+.greeting_background{
+    background-image: linear-gradient(to right, white, orange);;
+}

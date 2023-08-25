@@ -1,0 +1,23 @@
+*{
+    color:rgb(214, 16, 181);
+}
+
+body{
+    font-size: 20px;
+}
+h1,h2{
+    font-weight: bold;
+    color: rgb(255, 102, 0);
+}
+main{
+    color: rgb(0, 255, 64);
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+    color: brown;
+}
+
+span{
+    color: blueviolet;
+}

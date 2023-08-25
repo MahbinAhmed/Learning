@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    color: aliceblue;
+    background-color: rgb(66, 66, 66);
+}
+
+.columns{
+    column-count: 4;
+    column-width: 200px;
+    column-gap: 1.2rem;   
+    column-rule: 2px solid rgb(255, 77, 77);
+    margin-left: 0.5rem;
+}
+
+.columns p{
+    margin-bottom: 1rem;
+}
+
+.columns h2{
+    color: aliceblue;
+    background-color: rgb(66, 66, 66);
+    padding: 3px;
+    margin-bottom: 1rem;
+    break-inside: avoid;
+    break-before: column;
+    text-align: center;
+}
+
+.quote{
+    font-size: 2rem;
+    color: rgb(255, 77, 77);
+    column-span: all;
+    text-align: center;
+    margin: 1rem 0 1rem 0;
+}

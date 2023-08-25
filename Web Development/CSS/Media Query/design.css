@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header h1{
+    text-align: center;
+    color: whitesmoke;
+    background-color: black;
+    padding: 0.3rem;
+}
+
+nav{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+nav a{
+    text-decoration: none;
+    padding: 0.2rem;
+    background-color: #14FAEC;
+    text-align: center;
+    color: #332E30;
+    border-right: 1px solid #332E30;
+}
+
+nav a:hover{
+    background-color: #332E30;
+    color: whitesmoke;
+}
+
+body{
+    background-color: rgb(255, 240, 220);
+}
+
+@media screen and (max-width: 950px){
+    body{
+        background-color: rgb(255, 255, 109);
+    }
+    
+    nav a{
+        background-color: whitesmoke;
+        color: black
+    }
+
+    nav a:hover{
+        background-color: black;
+        color: whitesmoke;
+    }
+}
