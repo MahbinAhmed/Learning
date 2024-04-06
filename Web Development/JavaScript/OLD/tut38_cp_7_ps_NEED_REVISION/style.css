@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@300&family=Oswald&family=Poppins&family=Roboto:wght@300;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Navbar */
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    background-color: rgb(182, 182, 182);
+    justify-content: end;
+}
+
+li{
+    padding: 10px 20px;
+    height: 100%;
+    font-size: 1.2rem;
+
+}
+
+li:hover{
+    background-color: black;
+    color: whitesmoke;
+}
+
+/* Cards */
+h1{
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+p{
+    font-weight: 300;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin: 10px auto;
+}
+
+.card{
+    border: 2px solid black;
+    margin: 2px;
+    padding: 5px;
+    height: 200px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

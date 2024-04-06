@@ -1,0 +1,10 @@
+console.clear();
+console.time("1");
+console.log(console);
+console.assert(5<30);
+let obj = {a:1, b:2, c:3};
+console.table(obj);
+console.info("This is an info");
+console.warn("This is a warning");
+console.error("This is an error");
+console.timeEnd("1");

@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: wheat;
+    color: rgb(148, 65, 6);
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.5rem;
+}
+
+ul{
+    display: flex;
+    background-color: rgb(8, 139, 214);
+    color: whitesmoke;
+    flex-direction: row-reverse;
+}
+
+li{
+    list-style-type: none;
+    padding: 5px 15px;
+}
+
+li:hover{
+    /* border: 2px solid whitesmoke; */
+    background-color: whitesmoke;
+    color: rgb(8, 139, 214);
+}
+
+.red{
+    color: red;
+}
+
+.text{
+    text-decoration: underline;
+}

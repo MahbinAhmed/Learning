@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@300&family=Oswald&family=Poppins&family=Roboto:wght@300;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+p{
+    font-weight: 300;
+}
+.card{
+    border: 2px solid black;
+    margin: 2px;
+    padding: 5px;
+    height: 200px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

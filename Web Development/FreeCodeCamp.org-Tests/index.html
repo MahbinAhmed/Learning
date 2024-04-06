@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Survey</title>
+</head>
+<body>
+    <header>
+        <h1 id="title">Survey</h1>
+    </header>
+    <main>
+        <p id="description">This form is to do survey. This form is only made for learning purpose.</p>
+        <form action="https://httpbin.org/post" id="survey-form">
+        <p>
+            <label for="name-label" id="name-label">Name</label>
+            <input type="text" id="name" required placeholder="Enter your name">
+        </p>
+        <p>
+            <label for="email-label" id="email-label">Email</label>
+            <input type="email" id="email" placeholder="Enter your email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" required>        
+        </p>
+        <p>
+            <label for="number-label" id="number-label">Number</label>
+            <input type="number" id="number" min="0" max="1000" step="1" placeholder="Enter your number">
+        </p>
+        <p>
+            <select name="dropdown" id="dropdown">
+                <option value="C++">C++</option>
+                <option value="Python">Python</option>
+            </select>
+        </p>
+        <p>
+            <input type="radio" name="selection" id="desktop" value="desktop">
+            <label for="desktop">Desktop</label>
+        </p>
+        <p>
+            <input type="radio" name="selection" id="laptop" value="laptop">
+            <label for="laptop">Laptop</label>
+        </p>
+        <p>
+            <input type="checkbox" id="checkbox1" name="checklist" value="checkbox1">
+            <label for="checkbox1">Checkbox 1</label>
+        </p>
+        <p>
+            <input type="checkbox" name="checklist" id="checkbox2" value="checkbox2">
+            <label for="checkbox2">Checkbox 2</label>
+        </p>
+        <p>
+            <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+        </p>
+        <button type="submit" id="submit">Submit</button>
+    </form>
+    </main>
+</body>
+</html>
