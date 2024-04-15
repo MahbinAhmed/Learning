@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mulish", sans-serif;
+}
+
+:root{
+    --secondary_color : rgb(248, 65, 65);
+}
+
+body{
+    background-image: url("aron-visuals-BXOXnQ26B7o-unsplash-Edited.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 80%;
+    min-width: 900px;
+    max-width: 1000px;
+    height: 60%;
+    max-height: 500px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 2px solid white;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+h1{
+    font-size:4em ;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 9px;
+}
+
+.spcl_txt{
+    color: var(--secondary_color);
+}
+
+.time_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.time{
+    height: 200px;
+    width: 150px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 2px solid var(--secondary_color);
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.time div{
+    font-size: 100px;
+}
+
+.time span{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.time:last-child{
+    color: var(--secondary_color);
+}

@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(244, 252, 236);
+    color: rgb(250, 109, 8);
+    
+}
+
+ul{
+    display: flex;
+    background-color: rgb(8, 139, 214);
+    color: whitesmoke;
+    flex-direction: row-reverse;
+}
+
+li{
+    list-style-type: none;
+    padding: 5px 15px;
+}
+
+li:hover{
+    /* border: 2px solid whitesmoke; */
+    background-color: whitesmoke;
+    color: rgb(8, 139, 214);
+}
+
+.yellow{
+    background-color: yellow;
+    color: white;
+}
+
+.red{
+    background-color: red;
+    color: white;
+}
+
+
+.dark_text{
+    color: black;
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
